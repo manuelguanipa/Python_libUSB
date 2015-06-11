@@ -9,20 +9,6 @@ import usb.util
 
 def main():
 
-    #find our device
-    #dev = usb.core.find(idVendor=483, idProduct=5750)
-
-    #was it found?
-    #if dev is None:
-     #   print('Device not found')
-    #if dev is True:
-     #   print('Device found')
-
-   # Device_STM_Discovery = context.getByVendorIDAndProductID( 0x0483, 0x5750,skip_on_access_error=False, skip_on_error=False)
-   # if Device_STM_Discovery is None:
-   #     print('Device not found')
-   # if Device_STM_Discovery is True:
-   #     print('Device found')
 
 #------------------------------------------------------------------------------------------------------------------------#
     context = usb1.USBContext()
