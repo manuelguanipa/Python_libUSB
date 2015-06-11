@@ -47,7 +47,7 @@ def main():
     device_Handle.claimInterface(0)
     AFE_DATA = device_Handle.bulkRead(0x81, 64, timeout=3000)
     print (AFE_DATA)
-
+    print (type (AFE_DATA))
     device_Handle.releaseInterface(0)
 #---------------------------------------Find USB----------------------------------------------------------------------#
     #context = usb1.USBContext()
